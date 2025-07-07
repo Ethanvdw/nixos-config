@@ -41,6 +41,7 @@ in
       "pulseaudio"
       "network"
       "battery"
+      (if (host == "laptop") then "battery" else "")
       "hyprland/language"
       "custom/notification"
     ];
